@@ -14,6 +14,7 @@
 		F1D47E671EEEABE8000551F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D47E661EEEABE8000551F2 /* Assets.xcassets */; };
 		F1D47E6A1EEEABE8000551F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D47E681EEEABE8000551F2 /* LaunchScreen.storyboard */; };
 		F1D47E751EEEABE8000551F2 /* GitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D47E741EEEABE8000551F2 /* GitTestUITests.m */; };
+		F1D47E811EEEB4EB000551F2 /* SGY.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D47E801EEEB4EB000551F2 /* SGY.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F1D47E701EEEABE8000551F2 /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D47E741EEEABE8000551F2 /* GitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestUITests.m; sourceTree = "<group>"; };
 		F1D47E761EEEABE8000551F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D47E7F1EEEB4EB000551F2 /* SGY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGY.h; sourceTree = "<group>"; };
+		F1D47E801EEEB4EB000551F2 /* SGY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGY.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				F1D47E5E1EEEABE8000551F2 /* AppDelegate.m */,
 				F1D47E601EEEABE8000551F2 /* ViewController.h */,
 				F1D47E611EEEABE8000551F2 /* ViewController.m */,
+				F1D47E7F1EEEB4EB000551F2 /* SGY.h */,
+				F1D47E801EEEB4EB000551F2 /* SGY.m */,
 				F1D47E631EEEABE8000551F2 /* Main.storyboard */,
 				F1D47E661EEEABE8000551F2 /* Assets.xcassets */,
 				F1D47E681EEEABE8000551F2 /* LaunchScreen.storyboard */,
@@ -216,6 +221,7 @@
 				F1D47E621EEEABE8000551F2 /* ViewController.m in Sources */,
 				F1D47E5F1EEEABE8000551F2 /* AppDelegate.m in Sources */,
 				F1D47E5C1EEEABE8000551F2 /* main.m in Sources */,
+				F1D47E811EEEB4EB000551F2 /* SGY.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +416,7 @@
 				F1D47E7B1EEEABE8000551F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D47E7C1EEEABE8000551F2 /* Build configuration list for PBXNativeTarget "GitTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +425,7 @@
 				F1D47E7E1EEEABE8000551F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
